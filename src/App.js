@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
-      <h1 className='text-4xl my-4 font-mono'>GADGET <span className='text-red-800'>REVIEWER</span></h1>
+      
 
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
