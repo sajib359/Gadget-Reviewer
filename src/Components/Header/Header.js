@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div>
-            <nav className='flex gap-5 justify-center bg-teal-400 p-4 text-xl font-mono font-bold'>
+            <nav className='grid md:flex gap-5 justify-center bg-teal-400 p-4 text-xl font-mono font-bold'>
 
                 <Link to="/"> Home</Link>
                 <Link to="/reviews">REVIEWS</Link>

@@ -4,8 +4,8 @@ const Blogs = () => {
     return (
         <div>
             <h1 className='text-4xl text-blue-600 font-bold bg-orange-500 w-fit mx-auto p-6 mt-12'>Question & Answer Section</h1>
-            <div className='flex gap-4 mt-12 justify-center rounded-2xl p-5'>
-                <div className='w-1/3 shadow-xl'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mt-12  rounded-2xl p-5'>
+                <div className='w-full shadow-xl'>
                     <img className='w-3/2' src="https://ramonak.io/static/887282d1cc00bca871bfb1b7741a5b71/ac282/react-context-api.webp" alt="" />
                     <h2 className=' mt-12 font-bold text-2xl text-blue-500'>What is Context API ?</h2>
                     <p className='font-serif mt-5'>The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux.</p>
@@ -14,7 +14,7 @@ const Blogs = () => {
 
                     <p className='font-serif mt-5'>The React Context API was been around as an experimental feature for a while now but finally became safe to use in production last year, solving one major problem React problem — prop drilling. In this article, Toptal Freelance Javascript Developer Boris Yordanov will introduce us to the API and illustrate it with two basic web store apps, one built with the Context API and one without it.</p>
                 </div>
-                <div className='w-1/3 shadow-xl'>
+                <div className='w-full shadow-xl'>
                     <img className='w-3/2' src="https://clearlydecoded.com/assets/images/posts/2017-10-02-modern-html-semantic-elements/thumbnail-750x400.png" alt="" />
 
                     <h2 className='mt-12 font-bold text-2xl text-blue-500'>What Is Semantic Tags ?</h2>
@@ -22,7 +22,7 @@ const Blogs = () => {
 
                      On the flip side of this equation, tags such as  and  are not semantic. They define only how the text should look (bold or italic), and don't provide any additional meaning to the markup.</p>
                 </div>
-                <div className='w-1/3 shadow-xl'>
+                <div className='w-full shadow-xl'>
                     <img src="https://i1.wp.com/www.differencebetween.com/wp-content/uploads/2018/02/Difference-Between-Block-and-Inline-Elements-fig-1.png?w=567&ssl=1" alt="" />
 
                     <h2 className=' mt-12 font-bold text-2xl text-blue-500'>Difference Between Inline Element vs Block Element?</h2>
