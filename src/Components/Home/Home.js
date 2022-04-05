@@ -1,3 +1,4 @@
+import {  faArrowTurnRight, faHeadphones, faPhoneSquare } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -8,7 +9,7 @@ const Home = () => {
     const[reviewer , setReviewer]=Reviewers();
     return (
         <div>
-           <h1 className='text-4xl my-4 font-mono'>GADGET <span className='text-red-800'>REVIEWER</span></h1>
+           <h1 className='text-4xl my-4 font-mono'>GADGET <span className='text-red-800'>REVIEWER</span> <FontAwesomeIcon icon={faHeadphones}/></h1>
 
             <div className=' flex justify-center mt-8 gap-3 max-h-85 grid-cols-1 md:grid-cols-2'>
                 <div className='my-24 w-1/2'>
@@ -34,8 +35,8 @@ const Home = () => {
             }
             </div>
            <Link to='/reviews'>
-           <button className='text-2xl font-mono font-bold bg-cyan-300 px-16 py-3 mt-5' 
-            >See More<FontAwesomeIcon icon="fa-solid fa-arrow-down-wide-short" /></button>
+           <button className='text-2xl font-mono font-bold bg-cyan-300 px-16 py-3 mt-5 ' 
+            >See More  <FontAwesomeIcon icon={faArrowTurnRight}/></button>
             </Link>
         </div>
     );
