@@ -6,7 +6,7 @@ const Blogs = () => {
             <h1 className='text-4xl text-blue-600 font-bold bg-gray-300 w-fit mx-auto p-6 mt-12'>Question & Answer Section</h1>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mt-12  rounded-2xl p-5'>
                 <div className='w-full shadow-xl'>
-                    <img className='w-3/2' src="https://ramonak.io/static/887282d1cc00bca871bfb1b7741a5b71/ac282/react-context-api.webp" alt="" />
+                    <img className='md:w-3/2' src="https://ramonak.io/static/887282d1cc00bca871bfb1b7741a5b71/ac282/react-context-api.webp" alt="" />
                     <h2 className=' mt-12 font-bold text-2xl text-blue-500'>What is Context API ?</h2>
                     <p className='font-serif mt-5'>The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux.</p>
 
@@ -15,7 +15,7 @@ const Blogs = () => {
                     <p className='font-serif mt-5'>The React Context API was been around as an experimental feature for a while now but finally became safe to use in production last year, solving one major problem React problem — prop drilling. In this article, Toptal Freelance Javascript Developer Boris Yordanov will introduce us to the API and illustrate it with two basic web store apps, one built with the Context API and one without it.</p>
                 </div>
                 <div className='w-full shadow-xl'>
-                    <img className='w-3/2' src="https://clearlydecoded.com/assets/images/posts/2017-10-02-modern-html-semantic-elements/thumbnail-750x400.png" alt="" />
+                    <img className='md:w-3/2' src="https://clearlydecoded.com/assets/images/posts/2017-10-02-modern-html-semantic-elements/thumbnail-750x400.png" alt="" />
 
                     <h2 className='mt-12 font-bold text-2xl text-blue-500'>What Is Semantic Tags ?</h2>
                     <p className='font-serif mt-5'>Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation. For example, a  tag indicates that the enclosed text is a paragraph. This is both semantic and presentational because people know what paragraphs are, and browsers know how to display them.

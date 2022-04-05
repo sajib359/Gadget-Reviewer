@@ -9,7 +9,7 @@ const Home = () => {
     const[reviewer , setReviewer]=Reviewers();
     return (
         <div>
-           <h1 className='text-4xl my-4 font-mono'>GADGET <span className='text-red-800'>REVIEWER</span> <FontAwesomeIcon icon={faHeadphones}/></h1>
+           <h1 className='text-4xl my-4 font-bold'>GADGET <span className='text-red-800'>REVIEWER</span> <FontAwesomeIcon icon={faHeadphones}/></h1>
 
             <div className=' grid mt-8 gap-3 max-h-85 grid-cols-1 md:flex md: justify-center'>
                 <div className='my-24 md:w-1/2'>
@@ -19,7 +19,7 @@ const Home = () => {
                     <a className='bg-slate-400 px-12 py-3 rounded text-2xl mt-5' href="https://www.amazon.com/Headphone-KINBOOFI-Musician-Monitor-Church/dp/B08L92TLR6?th=1">Buy Now</a>
                 </div>
                 <div>
-                    <img className='h-96 w-96' src="https://cdn.head-fi.org/a/11356124.jpg" alt="" />
+                    <img className='md:h-96 w-96' src="https://cdn.head-fi.org/a/11356124.jpg" alt="" />
                 </div>
             </div>
 
@@ -35,7 +35,7 @@ const Home = () => {
             }
             </div>
            <Link to='/reviews'>
-           <button className='text-2xl font-mono font-bold bg-cyan-300 px-16 py-3 mt-5 ' 
+           <button className='text-2xl font-mono font-bold bg-cyan-300 md:px-16 py-3 mt-5 ' 
             >See More  <FontAwesomeIcon icon={faArrowTurnRight}/></button>
             </Link>
         </div>
