@@ -6,7 +6,10 @@ const Reviews = () => {
     const[reviewer , setReviewer]=Reviewers()
 
     return (
-        <div className='grid grid-cols-3'>
+        
+       <div>
+           <h1 className='text-4xl my-4 font-mono text-orange-400 bg-black w-fit mx-auto p-4'>Review Section</h1>
+            <div className='grid grid-cols-3 gap-3 mx-auto'>
             {
                 reviewer.map(review=><Review
                 key={review.id}
@@ -15,6 +18,7 @@ const Reviews = () => {
             }
 
         </div>
+       </div>
     );
 };
 

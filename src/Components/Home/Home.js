@@ -1,6 +1,9 @@
 import React from 'react';
+import Reviewers from '../../Hooks/Reviewers';
+import Review from '../Review/Review';
 
 const Home = () => {
+    const[reviewer , setReviewer]=Reviewers();
     return (
         <div>
            <h1 className='text-4xl my-4 font-mono'>GADGET <span className='text-red-800'>REVIEWER</span></h1>
@@ -20,6 +23,15 @@ const Home = () => {
             <div>
                 <h1 className='text-5xl bg-cyan-600 font-mono font-bold text-lime-300'>Customers Reviews(3)</h1>
             </div>
+            <div className='grid grid-cols-3 gap-3 ml-24'>
+            {
+                reviewer.map(review=><Review
+                key={review.id}
+                review={review}
+                ></Review>)
+            }
+            </div>
+            <button className='text-2xl font-mono font-bold bg-cyan-300 px-16 py-3 mt-5' >See More</button>
         </div>
     );
 };

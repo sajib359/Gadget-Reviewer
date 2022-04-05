@@ -4,9 +4,9 @@ const Blogs = () => {
     return (
         <div>
             <h1 className='text-4xl text-blue-600 font-bold bg-orange-500 w-fit mx-auto p-6 mt-12'>Question & Answer Section</h1>
-            <div className='flex gap-3 mt-12 justify-center'>
+            <div className='flex gap-4 mt-12 justify-center rounded-2xl p-5'>
                 <div className='w-1/3 shadow-xl'>
-                    <img className='w-3/2' src="https://miro.medium.com/max/1266/1*BSZ8vrQ8OXkoclrsg_C3HA.png" alt="" />
+                    <img className='w-3/2' src="https://ramonak.io/static/887282d1cc00bca871bfb1b7741a5b71/ac282/react-context-api.webp" alt="" />
                     <h2 className=' mt-12 font-bold text-2xl text-blue-500'>What is Context API ?</h2>
                     <p className='font-serif mt-5'>The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux.</p>
 
