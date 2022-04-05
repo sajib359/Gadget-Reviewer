@@ -3,7 +3,7 @@ import React from 'react';
 const Blogs = () => {
     return (
         <div>
-            <h1 className='text-4xl text-blue-600 font-bold bg-orange-500 w-fit mx-auto p-6 mt-12'>Question & Answer Section</h1>
+            <h1 className='text-4xl text-blue-600 font-bold bg-gray-300 w-fit mx-auto p-6 mt-12'>Question & Answer Section</h1>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mt-12  rounded-2xl p-5'>
                 <div className='w-full shadow-xl'>
                     <img className='w-3/2' src="https://ramonak.io/static/887282d1cc00bca871bfb1b7741a5b71/ac282/react-context-api.webp" alt="" />
